@@ -1,0 +1,13 @@
+// 1.20.1	2024-05-06T18:21:53.932217	Balls Mod/Block Loot Tables
+b818703e75b3f1d5ddc33fa241c261f2a4f95457 data\balls_mod\loot_tables\blocks\stripped_ni_log.json
+50dee18f9728e0c18b4434eab4a54650859199e6 data\balls_mod\loot_tables\blocks\platinum_ore.json
+2f2d6827d79cd8ebd81972407e2dcd367576b9f2 data\balls_mod\loot_tables\blocks\end_stone_platinum_ore.json
+649b94cc9526e9a8a8d1b0d1e9a92a310f676f2c data\balls_mod\loot_tables\blocks\ni_planks.json
+c42a341ba28cef726c5c49198ab6ed5e554b2a32 data\balls_mod\loot_tables\blocks\ni_wood.json
+fd5a184163deabe258c94ee23fd40f8e1d6546c2 data\balls_mod\loot_tables\blocks\ni_sapling.json
+1a3be8ad61e00b49692787b27e58de7616890c9c data\balls_mod\loot_tables\blocks\stripped_ni_wood.json
+6e36e9184f92f47bb406940737886d676db79578 data\balls_mod\loot_tables\blocks\deepslate_platinum_ore.json
+e2176e871b471187347ff707fa8c1f594226a9ba data\balls_mod\loot_tables\blocks\platinum_block.json
+5bec3add1dd4563d60a2161ac25872b529ea329c data\balls_mod\loot_tables\blocks\ancient_rubble.json
+a7eeb58350a1fb91647f16bf725228f81e78eea0 data\balls_mod\loot_tables\blocks\raw_platinum_block.json
+7726d0fe2e97bc40373ba1577afcd01e7f8512d2 data\balls_mod\loot_tables\blocks\ni_log.json

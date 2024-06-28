@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "misc",
+  "ingredients": [
+    {
+      "item": "balls_mod:ni_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "balls_mod:ni_planks"
+  }
+}

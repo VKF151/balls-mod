@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "balls_mod",
+	"version": "${version}",
+	"name": "Balls Mod",
+	"description": "Balls",
+	"authors": [
+		"My_Names_Jefff"
+	],
+	"contact": {
+		"homepage": "e",
+		"sources": "e"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/balls_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.vance.balls.BallsMod"
+		],
+		"fabric-datagen": [
+			"net.vance.balls.BallsModDataGenerator"
+		],
+		"client": [
+			"net.vance.balls.BallsModClient"
+		]
+	},
+	"mixins": [
+		"balls_mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": ">=1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

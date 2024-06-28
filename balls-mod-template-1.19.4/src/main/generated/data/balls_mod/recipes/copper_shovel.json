@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:copper_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#",
+    "s",
+    "s"
+  ],
+  "result": {
+    "item": "balls_mod:copper_shovel"
+  },
+  "show_notification": true
+}

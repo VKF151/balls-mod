@@ -1,0 +1,98 @@
+{
+  "item.balls_mod.platinum_ingot": "Platinum Ingot",
+  "item.balls_mod.platinum_fragment": "Platinum Fragment",
+  "item.balls_mod.raw_platinum": "Raw Platinum",
+  "item.balls_mod.cursed_compound": "Cursed Compound",
+
+  "item.balls_mod.platinum_helmet": "Platinum Helmet",
+  "item.balls_mod.platinum_chestplate": "Platinum Chestplate",
+  "item.balls_mod.platinum_leggings": "Platinum Leggings",
+  "item.balls_mod.platinum_boots": "Platinum Boots",
+
+  "item.balls_mod.platinum_sword": "Platinum Sword",
+  "item.balls_mod.platinum_pickaxe": "Platinum Pickaxe",
+  "item.balls_mod.platinum_axe": "Platinum Axe",
+  "item.balls_mod.platinum_shovel": "Platinum Shovel",
+  "item.balls_mod.platinum_hoe": "Platinum Hoe",
+
+  "item.minecraft.platinum_upgrade_smithing_template": "Smithing Template",
+  "item.minecraft.smithing_template.platinum_upgrade.applies_to": "Copper Equipment",
+  "item.minecraft.smithing_template.platinum_upgrade.ingredients": "Platinum Ingot",
+  "item.minecraft.smithing_template.platinum_upgrade.base_slot_description": "Add copper Armor, weapon, or Tool",
+  "item.minecraft.smithing_template.platinum_upgrade.additions_slot_description": "Add Platinum Ingot",
+  "upgrade.minecraft.platinum_upgrade": "Platinum Upgrade",
+
+  "item.minecraft.titanium_upgrade_smithing_template": "Smithing Template",
+  "item.minecraft.smithing_template.titanium_upgrade.applies_to": "Netherite Equipment",
+  "item.minecraft.smithing_template.titanium_upgrade.ingredients": "Titanium Ingot",
+  "item.minecraft.smithing_template.titanium_upgrade.base_slot_description": "Add netherite Armor, weapon, or Tool",
+  "item.minecraft.smithing_template.titanium_upgrade.additions_slot_description": "Add Titanium Ingot",
+  "upgrade.minecraft.titanium_upgrade": "Titanium Upgrade",
+
+  "item.minecraft.sword_upgrade_smithing_template": "Smithing Template",
+  "item.minecraft.smithing_template.sword_upgrade.applies_to": "Platinum Swords",
+  "item.minecraft.smithing_template.sword_upgrade.ingredients": "Boss Materials",
+  "item.minecraft.smithing_template.sword_upgrade.base_slot_description": "Add platinum sword",
+  "item.minecraft.smithing_template.sword_upgrade.additions_slot_description": "Add Boss Material",
+  "upgrade.minecraft.sword_upgrade": "Sword Upgrade",
+
+  "item.balls_mod.copper_nugget": "Copper Nugget",
+
+  "item.balls_mod.copper_helmet": "Copper Helmet",
+  "item.balls_mod.copper_chestplate": "Copper Chestplate",
+  "item.balls_mod.copper_leggings": "Copper Leggings",
+  "item.balls_mod.copper_boots": "Copper Boots",
+
+  "item.balls_mod.copper_sword": "Copper Sword",
+  "item.balls_mod.copper_pickaxe": "Copper Pickaxe",
+  "item.balls_mod.copper_axe": "Copper Axe",
+  "item.balls_mod.copper_shovel": "Copper Shovel",
+  "item.balls_mod.copper_hoe": "Copper Hoe",
+
+  "item.balls_mod.straw_hat": "Straw Hat",
+  "item.balls_mod.cursed_sword": "Sandai Kitesu",
+  "item.balls_mod.cursed_sword.tooltip": "This sword is said to be cursed to harm anyone who uses it",
+  "item.balls_mod.oden_sword": "Enma",
+  "item.balls_mod.oden_sword.tooltip": "This sword is said to demand the life force of anyone who weilds it",
+  "item.balls_mod.strong_sword": "Wado Ichimonji",
+  "item.balls_mod.strong_sword.tooltip": "This masterpiece of a sword is said to be unbreakable",
+
+  "item.balls_mod.titanium_ingot": "Titanium Ingot",
+  "item.balls_mod.titanium_scrap": "Titanium Scrap",
+  "block.balls_mod.ancient_rubble": "Ancient Rubble",
+  "block.balls_mod.molten_titanium_block": "Molten Titanium",
+
+  "item.balls_mod.titanium_helmet": "Titanium Helmet",
+  "item.balls_mod.titanium_chestplate": "Titanium Chestplate",
+  "item.balls_mod.titanium_leggings": "Titanium Leggings",
+  "item.balls_mod.titanium_boots": "Titanium Boots",
+
+  "item.balls_mod.titanium_sword": "Titanium Sword",
+  "item.balls_mod.titanium_pickaxe": "Titanium Pickaxe",
+  "item.balls_mod.titanium_axe": "Titanium Axe",
+  "item.balls_mod.titanium_shovel": "Titanium Shovel",
+  "item.balls_mod.titanium_hoe": "Titanium Hoe",
+
+  "block.balls_mod.platinum_block": "Block of Platinum",
+  "block.balls_mod.platinum_ore": "Platinum Ore",
+  "block.balls_mod.molten_platinum_block": "Molten Platinum",
+
+  "block.balls_mod.end_stone_platinum_ore": "End Stone Platinum Ore",
+  "block.balls_mod.deepslate_platinum_ore": "Deepslate Platinum Ore",
+  "block.balls_mod.raw_platinum_block": "Block of Raw Platinum",
+
+  "block.balls_mod.ni_log": "Ni Log",
+  "block.balls_mod.stripped_ni_log": "Stripped Ni Log",
+  "block.balls_mod.ni_wood": "Ni Wood",
+  "block.balls_mod.stripped_ni_wood": "Stripped Ni Wood",
+  "block.balls_mod.ni_planks": "Ni Planks",
+  "block.balls_mod.ni_leaves": "Ni Leaves",
+  "block.balls_mod.ni_sapling": "Ni Shrubbery",
+
+  "enchantment.balls_mod.hemorrhage": "Hemorrhaging",
+
+  "item.balls_mod.molten_platinum_bucket": "Molten Platinum Bucket",
+  "item.balls_mod.molten_titanium_bucket": "Molten Titanium Bucket",
+
+  "itemgroup.balls": "Balls Mod"
+}

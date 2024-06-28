@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ppp",
+    "ppp",
+    "ppp"
+  ],
+  "key": {
+    "p": {
+      "item": "balls_mod:raw_platinum"
+    }
+  },
+  "result": {
+    "item": "balls_mod:raw_platinum_block",
+    "count": 1
+  }
+}

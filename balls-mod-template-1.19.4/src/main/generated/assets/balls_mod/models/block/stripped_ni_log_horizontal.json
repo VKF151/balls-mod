@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "balls_mod:block/stripped_ni_log_top",
+    "side": "balls_mod:block/stripped_ni_log"
+  }
+}

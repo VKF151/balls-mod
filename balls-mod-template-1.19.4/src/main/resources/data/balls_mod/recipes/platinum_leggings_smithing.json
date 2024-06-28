@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "balls_mod:platinum_ingot"
+  },
+  "base": {
+    "item": "balls_mod:copper_leggings"
+  },
+  "result": {
+    "item": "balls_mod:platinum_leggings"
+  },
+  "template": {
+    "item": "balls_mod:platinum_upgrade_smithing_template"
+  }
+}

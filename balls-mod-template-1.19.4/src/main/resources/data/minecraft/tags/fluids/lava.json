@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "balls_mod:molten_platinum",
+    "balls_mod:still_molten_platinum",
+    "balls_mod:molten_titanium",
+    "balls_mod:still_molten_titanium"
+  ]
+}

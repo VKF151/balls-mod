@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
-import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
@@ -12,6 +11,7 @@ import net.minecraft.util.Identifier;
 import net.vance.balls.item.ModItems;
 
 public class ModLootTableModifiers {
+    private static final Identifier shulker_ID = new Identifier("minecraft", "entities/shulker");
     private static final Identifier end_City_ID = new Identifier("minecraft", "chests/end_city_treasure");
     private static final Identifier warden_ID = new Identifier("minecraft", "entities/warden");
     private static final Identifier buried_Treasure_ID = new Identifier("minecraft", "chests/buried_treasure");
@@ -52,6 +52,15 @@ public class ModLootTableModifiers {
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.45f))
                         .with(ItemEntry.builder(ModItems.TITANIUM_UPGRADE_SMITHING_TEMPLATE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f))).build();
+                tableBuilder.pool(poolBuilder);
+            }
+
+            if(shulker_ID.equals(id)) {
+                LootPool poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.15f))
+                        .with(ItemEntry.builder(ModItems.PLATINUM_FRAGMENT))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f))).build();
                 tableBuilder.pool(poolBuilder);
             }

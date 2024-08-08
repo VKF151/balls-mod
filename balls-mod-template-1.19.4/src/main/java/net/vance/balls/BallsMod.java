@@ -10,6 +10,7 @@ import net.vance.balls.enchantments.ModEnchantments;
 import net.vance.balls.item.ModItemGroup;
 import net.vance.balls.item.ModItems;
 import net.vance.balls.particle.ModParticles;
+import net.vance.balls.recipe.ModRecipes;
 import net.vance.balls.screen.ModScreenHandlers;
 import net.vance.balls.util.ModLootTableModifiers;
 import net.vance.balls.world.gen.ModWorldGeneration;
@@ -29,6 +30,7 @@ public class BallsMod implements ModInitializer {
 		ModBlockEntities.registerBlockEntities();
 		ModEnchantments.registerModEnchantments();
 		ModParticles.registerParticles();
+		ModRecipes.registerRecipes();
 
 		ModScreenHandlers.registerScreenhandlers();
 

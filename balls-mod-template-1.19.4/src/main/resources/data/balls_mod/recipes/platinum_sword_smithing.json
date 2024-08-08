@@ -4,7 +4,7 @@
     "item": "balls_mod:platinum_ingot"
   },
   "base": {
-    "item": "balls_mod:copper_sword"
+    "item": "minecraft:netherite_sword"
   },
   "result": {
     "item": "balls_mod:platinum_sword"

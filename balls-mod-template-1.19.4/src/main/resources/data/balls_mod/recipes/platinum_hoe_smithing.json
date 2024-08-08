@@ -4,7 +4,7 @@
     "item": "balls_mod:platinum_ingot"
   },
   "base": {
-    "item": "balls_mod:copper_hoe"
+    "item": "minecraft:netherite_hoe"
   },
   "result": {
     "item": "balls_mod:platinum_hoe"

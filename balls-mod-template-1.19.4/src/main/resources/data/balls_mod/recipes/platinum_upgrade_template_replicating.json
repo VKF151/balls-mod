@@ -1,0 +1,17 @@
+{
+  "type": "balls_mod:replicating",
+  "ingredients": [
+    {
+      "item": "balls_mod:platinum_upgrade_smithing_template"
+    },
+    {
+      "item": "balls_mod:titanium_upgrade_smithing_template"
+    }
+  ],
+  "output":{
+    "item": "balls_mod:platinum_upgrade_smithing_template",
+    "count": 2
+  }
+
+
+}

@@ -4,7 +4,7 @@
     "item": "balls_mod:platinum_ingot"
   },
   "base": {
-    "item": "balls_mod:copper_leggings"
+    "item": "minecraft:netherite_leggings"
   },
   "result": {
     "item": "balls_mod:platinum_leggings"

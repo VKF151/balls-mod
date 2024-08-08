@@ -1,0 +1,17 @@
+{
+  "type": "balls_mod:replicating",
+  "ingredients": [
+    {
+      "item": "balls_mod:titanium_scrap"
+    },
+    {
+      "item": "balls_mod:platinum_fragment"
+    }
+  ],
+  "output":{
+    "item": "balls_mod:titanium_scrap",
+    "count": 2
+  }
+
+
+}

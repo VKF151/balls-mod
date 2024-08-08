@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "balls_mod:platinum_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "balls_mod:platinum_ingot"
+  }
+}

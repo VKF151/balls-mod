@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "balls_mod:ni_log",
+    "balls_mod:stripped_ni_log",
+    "balls_mod:ni_wood",
+    "balls_mod:stripped_ni_wood"
+  ]
+}

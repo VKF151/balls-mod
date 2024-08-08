@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "minecraft:blaze_rod"
+    },
+    "c": {
+      "item": "minecraft:crafting_table"
+    },
+    "e": {
+      "item": "minecraft:enchanting_table"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "qeq",
+    "bib",
+    "c c"
+  ],
+  "result": {
+    "item": "balls_mod:replicator"
+  },
+  "show_notification": true
+}

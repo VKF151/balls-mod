@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "balls_mod:platinum_helmet",
+    "balls_mod:platinum_chestplate",
+    "balls_mod:platinum_leggings",
+    "balls_mod:platinum_boots",
+    "balls_mod:copper_helmet",
+    "balls_mod:copper_chestplate",
+    "balls_mod:copper_leggings",
+    "balls_mod:copper_boots",
+    "balls_mod:titanium_helmet",
+    "balls_mod:titanium_chestplate",
+    "balls_mod:titanium_leggings",
+    "balls_mod:titanium_boots"
+  ]
+}

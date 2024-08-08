@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "balls_mod:block/stripped_ni_log",
+    "side": "balls_mod:block/stripped_ni_log"
+  }
+}

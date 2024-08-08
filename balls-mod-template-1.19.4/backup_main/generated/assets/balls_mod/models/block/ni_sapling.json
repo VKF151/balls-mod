@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "balls_mod:block/ni_sapling"
+  }
+}

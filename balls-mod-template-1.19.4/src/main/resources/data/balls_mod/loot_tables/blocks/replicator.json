@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "balls_mod:replicator",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "balls",
+  "ingredient": {
+    "item": "balls_mod:end_stone_platinum_ore"
+  },
+  "result": "balls_mod:platinum_fragment"
+}

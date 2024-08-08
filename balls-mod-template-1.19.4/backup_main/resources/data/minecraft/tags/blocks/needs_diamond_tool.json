@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "balls_mod:platinum_ore",
+    "balls_mod:end_stone_platinum_ore",
+    "balls_mod:platinum_block",
+    "balls_mod:raw_platinum_block",
+    "balls_mod:deepslate_platinum_ore",
+    "balls_mod:ancient_rubble"
+
+  ]
+}

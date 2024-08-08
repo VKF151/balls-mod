@@ -2,6 +2,7 @@ package net.vance.balls.data;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
@@ -36,11 +37,26 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerBlasting(exporter, List.of(ModBlocks.ANCIENT_RUBBLE), RecipeCategory.MISC, ModItems.TITANIUM_SCRAP,
                 1, 100, "balls");
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.REPLICATOR_BLOCK, 1)
+                .pattern("qeq")
+                .pattern("bib")
+                .pattern("c c")
+                .input('q', Items.QUARTZ)
+                .input('e', Blocks.ENCHANTING_TABLE)
+                .input('b', Items.BLAZE_ROD)
+                .input('i', Items.IRON_INGOT)
+                .input('c', Blocks.CRAFTING_TABLE)
+                .criterion(FabricRecipeProvider.hasItem(Blocks.ENCHANTING_TABLE),
+                        FabricRecipeProvider.conditionsFromItem(Blocks.ENCHANTING_TABLE))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.REPLICATOR_BLOCK)));
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TITANIUM_INGOT)
                         .input(ModItems.TITANIUM_SCRAP)
                         .input(ModItems.TITANIUM_SCRAP)
                         .input(ModItems.TITANIUM_SCRAP)
-                        .input(Items.EMERALD)
+                        .input(ModItems.TITANIUM_SCRAP)
+                        .input(Items.COPPER_INGOT)
+                        .input(Items.COPPER_INGOT)
                         .input(Items.COPPER_INGOT)
                         .input(Items.COPPER_INGOT)
                 .criterion(FabricRecipeProvider.hasItem(ModBlocks.ANCIENT_RUBBLE),
@@ -51,7 +67,9 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                         .input(ModItems.PLATINUM_FRAGMENT)
                         .input(ModItems.PLATINUM_FRAGMENT)
                         .input(ModItems.PLATINUM_FRAGMENT)
-                        .input(Items.DIAMOND)
+                        .input(ModItems.PLATINUM_FRAGMENT)
+                        .input(Items.COPPER_INGOT)
+                        .input(Items.COPPER_INGOT)
                         .input(Items.COPPER_INGOT)
                         .input(Items.COPPER_INGOT)
                 .criterion(FabricRecipeProvider.hasItem(ModItems.RAW_PLATINUM),
@@ -165,5 +183,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(Items.COPPER_INGOT),
                         FabricRecipeProvider.conditionsFromItem(Items.COPPER_INGOT))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.COPPER_HOE)));
+
+
     }
 }

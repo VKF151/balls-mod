@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "balls_mod:copper_sword",
+    "balls_mod:platinum_sword",
+    "balls_mod:cursed_sword",
+    "balls_mod:titanium_sword"
+  ]
+}

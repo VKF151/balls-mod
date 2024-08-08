@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "balls_mod:item/platinum_pickaxe"
+  }
+}

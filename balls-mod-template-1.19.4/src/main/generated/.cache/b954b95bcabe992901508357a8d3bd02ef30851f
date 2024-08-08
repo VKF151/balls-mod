@@ -1,6 +1,4 @@
-// 1.20.1	2024-05-06T18:21:53.9421903	Balls Mod/balls_mod
-a01f6b0a1a41e6973f08eba5b4bd76b80384acd9 data\balls_mod\worldgen\placed_feature\platinum_ore_placed.json
-d6ef51c3277976a3c0251b9ed00e22e9b86179e6 data\balls_mod\worldgen\configured_feature\ni_shrub.json
-0e7c5335ae4e1f9af0e88ac1e7a359d2c823b223 data\balls_mod\worldgen\configured_feature\end_platinum_ore.json
-e8837ba4650fbdd195c153c68a2e8bae118bacbe data\balls_mod\worldgen\placed_feature\ancient_rubble_placed.json
+// 1.20.1	2024-08-08T00:51:57.7640833	Balls Mod/balls_mod
+6ddc2abd93471afe130ce8214bb795d46458bf4e data\balls_mod\worldgen\placed_feature\ancient_rubble.json
+9fb860c1757321b6afcba789f53a65544f01ea5f data\balls_mod\worldgen\configured_feature\ni_shrub.json
 c5a0337cd2e2db9ee279d18b546c783c9614bfbf data\balls_mod\worldgen\configured_feature\ancient_rubble.json
